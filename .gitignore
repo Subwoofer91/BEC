@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 大数据/中间产物（按需开启）
+*.npy
+*.npz
+*.h5
+# 注意：图片我建议提交，因为体积小且是研究记录的一部分
+# 如果之后产生几百 MB 的扫参数据，再加 *.npy 这种规则
